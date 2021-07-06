@@ -16,7 +16,7 @@
 
 - 프로젝트 참여 인원 : 4명
 
-![회원가입](https://user-images.githubusercontent.com/84759004/124489936-7df28c00-ddec-11eb-9896-73be72ec4fe8.PNG)
+
 
 
 ---

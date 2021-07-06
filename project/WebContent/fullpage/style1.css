@@ -1,0 +1,431 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.navbar {
+	width:100%;
+   display: flex;
+   position:fixed;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ffd700;
+   padding: 25px 25px;
+}
+.navbar b6{
+	font-size: 40px;
+	color: #BA602B;
+	display: flex;
+	margin-left:30%;
+	font-weight:bold;
+}
+.navbar_logo{
+	font-size: 24px;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	margin-left:2%;
+}
+.navbar_logo a{
+	text-decoration: none;
+	color: white;
+}
+.navbar_logo img{
+	width:100px; height:100px;
+}
+.navbar_menu img{
+	width:30px; height:30px;
+}
+.navbar_menu{
+   display: flex;
+   list-style: none;
+   padding-left: 0px;
+   font-size: 28px;
+   
+}
+.navbar_menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar_menu li{
+	padding: 8px 12px;
+	
+}
+.navbar_menu li:hover{
+	background-color: #cd853f;
+	border-radius: 4px;
+}
+.wrapper{
+	height:auto;
+	min-height:100%;
+	padding-bottom:60px;
+	
+}
+
+
+footer{
+	text-align:center;
+	background: gray;
+	height: 15%;
+	width: 100%;
+	font-family: "Open Sans";
+	color: white;
+	padding-top: 10px;
+	position:relative;
+	transfrom:translateY(-100%);
+}
+.footer_contents{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer_contents h3{
+	font-size: 1.8rem;
+	font-weight: 300px;
+	text-transform: capitalize;
+	line-height: 1rem;
+}
+.footer_contents p{
+	max-width: 400px;
+	margin: 10px auto;
+	line-height: 18px;
+	font-size: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px 0 5px 0;
+}
+.socials li{
+	margin: 0 10px;
+	
+}
+.socials a{
+	text-decoration: none;
+	color: white;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+.socials a:hover i{
+	color: aqua;	
+}
+.footer_bottom{
+	background: gray;
+	width: 100vw;
+	padding: 0;
+	text-align: center;
+}
+.footer_bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer_bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+/* 첫번째페이지 선택하는 리스트들 */
+.checklist{
+	
+		display: flex;
+		border: 1px solid black;
+		width: 170px;
+		height: 43px;
+		top: 350px;
+		right: 100px;
+		justify-content: center;
+		display: flex;
+		background-color: gold;
+		margin-left: 50px;
+		position: fixed;
+		
+	}
+	/* 지역선택 */
+	.zone select{
+		width: 120px;
+		height: 40px;
+		font-size: 20px;
+	}
+
+	/* 맛집리스트 */
+	   .matzip {
+      width: 70%;
+      position: static;
+          display: flex;
+       flex-direction: column;
+      margin-left: 300px;
+      margin-bottom: 50px;
+   }
+   .matzip_list{
+      width: 100%;
+      margin-left: 15px;
+      
+   }
+   .list{
+      width: 400px;
+      float: left;
+      margin-left: 25px;
+      
+   }
+   .list img{
+      width: 400px; height: 300px;
+   }
+   .list p{
+      text-align: center;
+      margin-top: 7px;
+       margin-bottom: 10px;
+   }
+   
+   .matzip h3{
+      display: flex;
+       justify-content: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       margin-right:40px;
+   }
+   
+   .matzip a{text-decoration: none;}
+   
+   .list_header{
+      border-top: 2px solid black;
+      margin-top: 30px;
+   }
+   
+   /* restuarantok페이지 */
+	.foodimages {
+		position: relative;
+		border-bottom: 1px solid black;
+		top: 70px;
+		width: 100%;
+		height: 390px;	
+	}
+
+	.restuarant_static{
+		z-index: 100px;
+	}
+	.foodimages.slick-initialized.slick-slider{
+		z-index: 50px;
+	}
+	
+	.foodimages {
+		position: relative;
+		border-bottom: 1px solid black;
+		top: 70px;
+		width: 100%;
+		height: 390px;
+		
+	}
+	
+	/* 음식사진 */
+	.foodimages img{
+		width: 640px; height: 350px;
+        
+	/* 음식사진 다음버튼 */
+	}
+	.foodimages.slick-initialized.slick-slider {
+		top: 120px;
+		z-index:-1;
+	}
+	.slick-next.slick-arrow{
+		position: relative;
+		width: 50px; height: 40px;
+		left: 1850px;
+	}
+	/* 음식사진 이전버튼 */
+	.slick-prev.slick-arrow{
+		position: relative;
+		width: 50px; height: 40px;
+		top: 390px;
+		left: 25px;
+	}
+	
+	/* 음식점 정보 */
+	.impormation{
+	font-size: 30px;
+	width: 1000px;
+	margin-left:200px;
+	margin-top: 140px;
+
+	}
+	.impormation table{
+	margin-left: 60px;
+	}
+	.impormation td{
+	width: auto;
+	margin-bottom: 10px;
+	text-align: left;
+	padding:15px;
+	}
+	.impormation a{
+	text-decoration: none;
+	}
+	
+	/* 음식점소개글 */
+	.introduce{
+	margin-top:70px;
+    border-bottom: 2px solid black;
+	width: 1350px;
+    margin-left: 70px;
+	}
+	.introduce table{
+	margin-left: 500px;
+	}
+	.introduce td{
+	text-align: center;
+	}
+	
+	/* 네이버맵 */
+	.maps{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 1000px;
+	top: 500px;
+    bottom: 50px;
+    z-index:-1;
+	}
+	.maps td{
+		text-align: center;
+		font-size: 30px;
+		padding-bottom: 30px;
+		font: bold;
+	}
+	
+	/* 전체글, 좋아요, 싫어요 수 */
+	.count {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+    margin-left: 340px;
+    font-size: 28px;
+    margin-top: 100px;
+    
+	}
+	.count li{
+	list-style: none;
+	margin-left: 8px;
+	border:1px solid black;
+	border-radius: 6px;
+	}
+	.count ul#allcount{
+		display: flex;
+		justify-content: flex-start;
+	}
+	.count ul#evaluate{
+	display: flex;
+	justify-content: flex-end;
+	}
+	.count ul#write_Img a{
+	text-decoration: none;
+	}
+	
+	/* 리뷰쓰기 이미지 */
+	.write_img input{
+		background:#ffd700;
+		width: 80px;
+    	height: 40px;
+	}
+	.write_img {
+		display: flex;
+		justify-content: flex-end;
+		width: 1200px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 210px;
+	}
+	
+	/* 리뷰쓴 곳 */
+	.review table{
+	margin-left: 350px;
+    margin-top: 50px;
+   border-top: 1px solid black;
+	}
+	.review tr#review_img img{
+	width: 120px; height: 120px;
+	}
+		/* 리뷰작성페이지 */
+	.review_write{
+	position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0px;
+    padding-top: 120px;
+	}
+	.review_evaluate img{
+	width: 120px; height: 120px;
+	}
+	
+	.review_evaluate table{
+		border: 1px solid gray;
+   		margin-top: 100px;
+		
+	}
+	.add_img ul{
+		display: flex;
+    	list-style: none;
+    	margin-top: 30px;
+    	
+	}
+	.write_result input{
+		border: 0;
+	    background: #ffd710;
+	    margin-left: 130px;
+	    font-size: 50px;
+	    margin-top: 30px;
+	    margin-bottom: 40px;
+	}
+	.write_result a{
+		text-decoration: none;
+	}
+	.write_result input:hover{
+	cursor: pointer;
+	}
+	.write_result input:active {
+	margin-left: 132px;
+	
+	}
+
+	/* writer */
+	.write{
+ 		position: static;
+ 		display: flex;
+ 		flex-direction: column;
+ 		padding-bottom:30px;
+    	padding-top: 150px;
+    	padding-left:20px;
+ 	}
+ 	.write #btns td{
+ 		align-items:center;
+ 		padding-right:130px;
+ 	}
+ 	.write #btns input{
+ 		border: 0;
+ 		border-bottom:1px solid black;
+ 		background: #ffd710;
+ 		margin-left: 130px;
+ 		font-size: 40px;
+ 		margin-top: 28px;
+ 		margin-bottom: 30px;
+ 		padding-right:15px;
+ 		padding-left:15px;
+ 	}
+ 	.write #btns input:hover{
+ 		cursor: pointer;
+ 		background:#ffd700;
+ 	}
+ 	.write #btns input:active {
+	margin-left: 132px;
+	}

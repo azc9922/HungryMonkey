@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@charset "UTF-8";
+body {
+   margin: 0;
+   font-family: 'Goblin One', cursive;
+   font-size: 10px;
+   
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ffd700;
+   padding: 25px 25px;
+}
+.navbar b6{
+	font-size: 40px;
+	color: #BA602B;
+	display: flex;
+	margin-left:30%;
+	font-weight:bold;
+}
+.navbar_logo{
+   font-size: 24px;
+   color: white;
+}
+.navbar_logo i{
+   color: olive;
+   padding: 3px;
+}
+.navbar_menu{
+   display: flex;
+   list-style: none;
+   padding-left: 0px;
+   font-size: 28px;
+   
+}
+
+.navbar_menu td{
+   padding: 8px 12px;
+   
+}
+.navbar_menu td:hover{
+   background-color: red;
+   border-radius: 4px;
+}
+.navbar_logo img{
+	width:100px; height:100px;
+}
+.navbar_menu img{
+	width:30px; height:30px;
+}
+
+.navbar_menu{
+   display: flex;
+   list-style: none;
+   padding-left: 0px;
+   font-size: 28px;
+   
+}
+.navbar_menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar_menu li{
+	padding: 8px 12px;
+	
+}
+.navbar_menu li:hover{
+	background-color: #cd853f;
+	border-radius: 4px;
+}
+
+
+footer{
+	text-align:center;
+	background: gray;
+	height: 15%;
+	width: 100%;
+	font-family: "Open Sans";
+	color: white;
+	padding-top: 10px;
+	position:relative;
+	transfrom:translateY(-100%);
+}
+.footer_contents{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer_contents h3{
+	font-size: 1.8rem;
+	font-weight: 300px;
+	text-transform: capitalize;
+	line-height: 1rem;
+}
+.footer_contents p{
+	max-width: 400px;
+	margin: 10px auto;
+	line-height: 18px;
+	font-size: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px 0 5px 0;
+}
+.socials li{
+	margin: 0 10px;
+	
+}
+.socials a{
+	text-decoration: none;
+	color: white;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+.socials a:hover i{
+	color: aqua;	
+}
+.footer_bottom{
+	background: gray;
+	width: 100vw;
+	padding: 0;
+	text-align: center;
+}
+.footer_bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer_bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
